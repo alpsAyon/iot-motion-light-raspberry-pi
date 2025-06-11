@@ -11,7 +11,7 @@ This project uses a Raspberry Pi Zero 2 W and a PIR motion sensor to turn on an 
 - Breadboard and jumper wires
 - Python 3 (pre-installed on Raspberry Pi OS)
 
-## 🖥️ Circuit Diagram
+## 🖥️ Wiring Setup
 
 ![Wiring Diagram](images/wiring-setup.jpeg)
 
