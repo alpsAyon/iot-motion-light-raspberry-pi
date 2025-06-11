@@ -19,7 +19,7 @@ try:
         if GPIO.input(PIR_PIN):
             print("Motion detected! Turning on LED.")
             GPIO.output(LED_PIN, GPIO.HIGH)
-            time.sleep(5)
+            time.sleep(10)
             GPIO.output(LED_PIN, GPIO.LOW)
             print("LED off. Waiting 2 seconds.") # wait time before the sensor starts again
             time.sleep(2)
